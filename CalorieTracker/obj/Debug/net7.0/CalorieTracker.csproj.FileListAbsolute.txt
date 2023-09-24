@@ -1,0 +1,15 @@
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\bin\Debug\net7.0\CalorieTracker.exe
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\bin\Debug\net7.0\CalorieTracker.deps.json
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\bin\Debug\net7.0\CalorieTracker.runtimeconfig.json
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\bin\Debug\net7.0\CalorieTracker.dll
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\bin\Debug\net7.0\CalorieTracker.pdb
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\CalorieTracker.csproj.AssemblyReference.cache
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\CalorieTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\CalorieTracker.AssemblyInfoInputs.cache
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\CalorieTracker.AssemblyInfo.cs
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\CalorieTracker.csproj.CoreCompileInputs.cache
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\CalorieTracker.dll
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\refint\CalorieTracker.dll
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\CalorieTracker.pdb
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\CalorieTracker.genruntimeconfig.cache
+C:\Users\Deniz\Desktop\CaloryTracker\CaloryTracker\CalorieTracker\obj\Debug\net7.0\ref\CalorieTracker.dll

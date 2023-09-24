@@ -1,0 +1,13 @@
+Name: milk | Calorie: 110 | Carb: 11.75 | Protein: 7.2500005 | Fat: 3.75
+Name: protein_powder | Calorie: 121 | Carb: 1.5 | Protein: 25 | Fat: 2.2
+Name: banana | Calorie: 151 | Carb: 38.83 | Protein: 1.85 | Fat: 0.56
+Name: egg | Calorie: 75 | Carb: 0.35 | Protein: 6.5 | Fat: 5
+Name: chicken | Calorie: 183.59999 | Carb: 0 | Protein: 42.3 | Fat: 1.26
+Name: peanut_butter | Calorie: 281.5 | Carb: 8 | Protein: 12.5 | Fat: 24
+Name: yogurt | Calorie: 146 | Carb: 11.6 | Protein: 8 | Fat: 7.6
+Name: almond | Calorie: 301.5 | Carb: 6 | Protein: 11.5 | Fat: 24.5
+Name: lore | Calorie: 202 | Carb: 0.4 | Protein: 14 | Fat: 15.000001
+Name: chicken | Calorie: 306 | Carb: 0 | Protein: 70.5 | Fat: 2.1
+Name: soy | Calorie: 35.5 | Carb: 5 | Protein: 3.7500002 | Fat: 0
+
+total: Calorie: 1911 Carb: 92g Fat: 90g Protein: 202g

@@ -1,0 +1,8 @@
+Name: apple | Calorie: 100 | Carb: 100 | Protein: 100 | Fat: 100
+Name: milk | Calorie: 132 | Carb: 14.099999 | Protein: 8.700001 | Fat: 4.5
+Name: protein_powder | Calorie: 121 | Carb: 1.5 | Protein: 25 | Fat: 2.2
+Name: peanut_butter | Calorie: 281.5 | Carb: 8 | Protein: 12.5 | Fat: 24
+Name: egg | Calorie: 75 | Carb: 0.35 | Protein: 6.5 | Fat: 5
+Name: chicken | Calorie: 336.6 | Carb: 0 | Protein: 77.55 | Fat: 2.31
+Name: soy | Calorie: 17.75 | Carb: 2.5 | Protein: 1.8750001 | Fat: 0
+Name: yogurt | Calorie: 80.3 | Carb: 6.38 | Protein: 4.4 | Fat: 4.18

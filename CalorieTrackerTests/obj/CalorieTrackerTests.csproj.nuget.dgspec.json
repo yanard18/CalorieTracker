@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTrackerTests\\CalorieTrackerTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTrackerTests\\CalorieTrackerTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTrackerTests\\CalorieTrackerTests.csproj",
+        "projectName": "CalorieTrackerTests",
+        "projectPath": "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTrackerTests\\CalorieTrackerTests.csproj",
+        "packagesPath": "C:\\Users\\Deniz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTrackerTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deniz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTracker\\CalorieTracker.csproj": {
+                "projectPath": "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTracker\\CalorieTracker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTracker\\CalorieTracker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTracker\\CalorieTracker.csproj",
+        "projectName": "CalorieTracker",
+        "projectPath": "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTracker\\CalorieTracker.csproj",
+        "packagesPath": "C:\\Users\\Deniz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deniz\\Desktop\\CaloryTracker\\CaloryTracker\\CalorieTracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deniz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

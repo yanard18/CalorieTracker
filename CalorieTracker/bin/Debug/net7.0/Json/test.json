@@ -1,0 +1,8 @@
+{
+	"Name": "TestFood",
+	"Calorie": 500,
+	"Carb": 100,
+	"Fat": 20,
+	"Protein": 25,
+	"WeightType": "PER100G"
+}
