@@ -1,8 +1,8 @@
 {
 	"Name": "apple",
-	"Calorie": 100,
-	"Carb": 100,
-	"Fat": 100,
-	"Protein": 100,
+	"Calorie": 58,
+	"Carb": 14.5,
+	"Fat": 1.8,
+	"Protein": 0,
 	"WeightType": "ONE"
 }
