@@ -4,27 +4,22 @@ namespace CalorieTracker;
 
 public class Food
 {
+
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum EWeightType
     {
         PER100G,
         ONE
     }
-
+    
     public string Name { get; set; }
-
     public float Calorie { get; set; }
-
     public float Carb { get; set; }
-
     public float Fat { get; set; }
-
     public float Protein { get; set; }
-
 
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public EWeightType WeightType { get; set; }
-
 
     public override bool Equals(object? obj)
     {
