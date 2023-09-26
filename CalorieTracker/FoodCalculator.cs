@@ -3,7 +3,7 @@
 public static class FoodCalculator
 {
 
-    public static string Calculate(List<Food> foods)
+    public static string Calculate(IEnumerable<Food> foods)
     {
         var totalCalorie = 0f;
         var totalCarb = 0f;

@@ -4,6 +4,7 @@ FoodContainer.Init();
 var terminal = new Terminal();
 terminal.AddCommand(new AddCommand());
 terminal.AddCommand(new SessionCommand());
+terminal.AddCommand(new PeekCommand());
 
 while (true)
 {

@@ -1,0 +1,3 @@
+{"Name":"apple","Calorie":100,"Carb":100,"Fat":100,"Protein":100,"WeightType":"ONE"}
+
+Total, Calorie:100, Carb:100, Fat:100, Protein:100

@@ -36,9 +36,9 @@ public static class SessionManager
     public static void Close()
     {
         var currentSession = Load();
-        if(currentSession.Status == false)
+        if (currentSession.Status == false)
             return;
-        
+
         var closedSession = new Session()
         {
             Status = false,
@@ -53,9 +53,9 @@ public static class SessionManager
     {
         var session = Load();
         var fileInfo = new FileInfo(session.SavePath);
-        if(fileInfo.Length == 0)
+        if (fileInfo.Length == 0)
             return;
-        
+
         var resultContent = File.ReadAllText(session.SavePath);
 
         var fileName = $"{DateTime.Now:yyyy-MM-dd_hh-mm-ss}.txt";
@@ -67,7 +67,7 @@ public static class SessionManager
     static void DestroyTempFile()
     {
         var activeSession = Load();
-        if(File.Exists(activeSession.SavePath))
+        if (File.Exists(activeSession.SavePath))
             File.Delete(activeSession.SavePath);
     }
     static string CreateTextFileWithUniqueName()

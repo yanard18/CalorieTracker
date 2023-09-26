@@ -1,4 +1,0 @@
-Name: egg | Calorie: 75 | Carb: 0.35 | Protein: 6.5 | Fat: 5
-Name: chicken | Calorie: 306 | Carb: 0 | Protein: 70.5 | Fat: 2.1
-Name: soy | Calorie: 17.75 | Carb: 2.5 | Protein: 1.8750001 | Fat: 0
-Name: yogurt | Calorie: 146 | Carb: 11.6 | Protein: 8 | Fat: 7.6
