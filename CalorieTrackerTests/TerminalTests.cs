@@ -26,10 +26,9 @@ public class TerminalTests
     }
 
     [Test]
-    public void Run_With_Invalid_Command_Name_Throw_Exception()
+    public void Run_Undefined_Command_Does_Not_Throw_Exception()
     {
-        Assert.That(() => _terminal.Run("invalid"),
-            Throws.TypeOf<InvalidOperationException>());
+        Assert.DoesNotThrow(() => _terminal.Run("invalid"));
     }
 
     [Test]

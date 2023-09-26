@@ -1,4 +1,6 @@
-﻿namespace CalorieTracker;
+﻿using System.Text.Json;
+
+namespace CalorieTracker;
 
 public class AddCommand : ICommand
 {
@@ -40,7 +42,8 @@ public class AddCommand : ICommand
         }
 
 
-        var resultText = actualFood.ToString();
+        var resultText = JsonSerializer.Serialize(actualFood);
+        //var resultText = actualFood.ToString();
         var session = SessionManager.Load();
 
         using var writer = new StreamWriter(session.SavePath, true);
@@ -48,8 +51,8 @@ public class AddCommand : ICommand
     }
     public void Execute()
     {
-        throw new TerminalArgumentException
-            ("add command needs an argument as food, usage: add [food_name]");
+        const string message = "add command needs arguments, usage: add [food_name] [amount]";
+        Terminal.Log(message, ConsoleColor.Red);
     }
     public void Undo()
     {

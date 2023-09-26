@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Text.Json;
 
 namespace CalorieTracker;
 
@@ -22,14 +23,7 @@ public class AddCommandTests
     }
 
     [Test]
-    public void Add_Without_Argument_Throw_Exception()
-    {
-        Assert.That(_addCommand.Execute,
-            Throws.TypeOf<TerminalArgumentException>());
-    }
-
-    [Test]
-    public void Add_With_Valid_Food_Name_Write_Food_Data_Into_Session_Text_File()
+    public void Add_With_Valid_Food_Name_Write_Food_Data_Into_Temp_JSON_File()
     {
         var testFood = FoodDeserializer.Read("Json/test.json");
         var session = SessionManager.Load();
@@ -38,7 +32,8 @@ public class AddCommandTests
         _addCommand.Execute("TestFood", "100");
 
         var readData = File.ReadAllText(savePath);
-        Assert.That(readData, Is.EqualTo(testFood + "\r\n"));
+        var testFoodAsJson = JsonSerializer.Serialize(testFood);
+        Assert.That(readData, Is.EqualTo(testFoodAsJson+"\r\n"));
     }
     [Test]
     public void Add_With_Weight_Type_One_Write_Food_Data()
@@ -49,8 +44,9 @@ public class AddCommandTests
 
         _addCommand.Execute("apple", "1");
 
+        var expected = JsonSerializer.Serialize(food);
         var readData = File.ReadAllText(savePath);
-        Assert.That(readData, Is.EqualTo(food + "\r\n"));
+        Assert.That(readData, Is.EqualTo(expected + "\r\n"));
     }
 
     [Test]
@@ -72,7 +68,7 @@ public class AddCommandTests
         Assert.That(resultInSavePath, Does.Contain(calorieAmount.ToString(CultureInfo.InvariantCulture)));
     }
     [Test]
-    public void Add_Append_Food_Data_Into_Save_path()
+    public void Add_Append_Food_Data_Into_Temp_JSON_File()
     {
         var session = SessionManager.Load();
         var savePath = session.SavePath;

@@ -1,11 +1,28 @@
-﻿using System.Globalization;
+﻿using System.Drawing;
+using System.Globalization;
 
 namespace CalorieTracker;
 
 public class Terminal
 {
+    static readonly object _messageLock = new object();
     public Dictionary<string, ICommand> Commands { get; } = new Dictionary<string, ICommand>();
 
+    public static void Log(string message)
+    {
+        Console.WriteLine(message);
+    }
+    public static void Log(string message, ConsoleColor color)
+    {
+        lock (_messageLock)
+        {
+            var defaultColor = Console.ForegroundColor;
+            Console.ForegroundColor = color;
+            Console.WriteLine(message);
+            Console.ForegroundColor = defaultColor;
+        }
+
+    }
     public void AddCommand(ICommand command)
     {
         Commands.Add(command.Name.ToLower(CultureInfo.InvariantCulture), command);
@@ -14,9 +31,12 @@ public class Terminal
     {
         var inputAsLowerCase = input.ToLower(CultureInfo.InvariantCulture);
         var commandName = GetCommand(inputAsLowerCase);
-        
+
         if (!Commands.ContainsKey(commandName))
-            throw new InvalidOperationException("Command is invalid!");
+        {
+            Log("Command is undefined!", ConsoleColor.Red);
+            return;
+        }
 
         var command = Commands[commandName];
 

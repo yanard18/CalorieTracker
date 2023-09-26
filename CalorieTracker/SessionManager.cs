@@ -72,7 +72,7 @@ public static class SessionManager
     }
     static string CreateTextFileWithUniqueName()
     {
-        var uniqueFileName = $"{Guid.NewGuid()}.txt";
+        var uniqueFileName = $"{Guid.NewGuid()}.json";
         var file = File.Create($"Temp/{uniqueFileName}");
         file.Close();
         return $"Temp/{uniqueFileName}";

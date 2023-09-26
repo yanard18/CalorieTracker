@@ -18,6 +18,10 @@ public class SessionCommand : ICommand
                 break;
         }
     }
-    public void Execute() { }
+    public void Execute()
+    {
+        const string message = "usage: session start | session close";
+        Terminal.Log(message, ConsoleColor.Red);
+    }
     public void Undo() { }
 }

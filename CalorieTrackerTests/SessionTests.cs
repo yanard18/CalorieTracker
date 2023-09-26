@@ -19,7 +19,7 @@ public class SessionTests
     
     
     [Test]
-    public void Load_Session_Should_Deserialize_Json()
+    public void Load_Session_Return_Session_With_Deserialize_JSON()
     {
         var expectedSession = LoadSessionFromJson();
 
