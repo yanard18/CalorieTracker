@@ -31,10 +31,10 @@ public class AddCommand : ICommand
                 break;
             case Food.EWeightType.ONE:
                 actualFood.Name = food.Name;
-                actualFood.Calorie = food.Calorie;
-                actualFood.Carb = food.Carb;
-                actualFood.Protein = food.Protein;
-                actualFood.Fat = food.Fat;
+                actualFood.Calorie = food.Calorie * amount;
+                actualFood.Carb = food.Carb * amount;
+                actualFood.Protein = food.Protein * amount;
+                actualFood.Fat = food.Fat * amount;
                 actualFood.WeightType = food.WeightType;
                 break;
             default:

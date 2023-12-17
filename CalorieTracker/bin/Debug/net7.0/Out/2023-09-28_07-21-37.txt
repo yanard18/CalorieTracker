@@ -1,0 +1,2 @@
+{"Name":"egg","Calorie":75,"Carb":0.35,"Fat":5,"Protein":6.5,"WeightType":"ONE"}
+{"Name":"egg","Calorie":75,"Carb":0.35,"Fat":5,"Protein":6.5,"WeightType":"ONE"}

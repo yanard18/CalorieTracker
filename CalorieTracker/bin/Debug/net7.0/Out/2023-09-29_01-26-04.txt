@@ -1,0 +1,9 @@
+{"Name":"egg","Calorie":75,"Carb":0.35,"Fat":5,"Protein":6.5,"WeightType":"ONE"}
+{"Name":"protein_powder","Calorie":121,"Carb":1.5,"Fat":2.2,"Protein":25,"WeightType":"ONE"}
+{"Name":"milk","Calorie":132,"Carb":14.099999,"Fat":4.5,"Protein":8.700001,"WeightType":"PER100G"}
+{"Name":"peanut_butter","Calorie":281.5,"Carb":8,"Fat":24,"Protein":12.5,"WeightType":"PER100G"}
+{"Name":"almond","Calorie":301.5,"Carb":6,"Fat":24.5,"Protein":11.5,"WeightType":"PER100G"}
+{"Name":"chicken","Calorie":510,"Carb":0,"Fat":3.4999998,"Protein":117.5,"WeightType":"PER100G"}
+{"Name":"yogurt","Calorie":73,"Carb":5.8,"Fat":3.8,"Protein":4,"WeightType":"PER100G"}
+{"Name":"pasta","Calorie":370,"Carb":71,"Fat":2,"Protein":11.5,"WeightType":"PER100G"}
+{"Name":"yogurt","Calorie":73,"Carb":5.8,"Fat":3.8,"Protein":4,"WeightType":"PER100G"}
